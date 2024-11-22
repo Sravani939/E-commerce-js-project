@@ -1,0 +1,94 @@
+.head{
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 50px;
+    width: 100%;
+    /* position: fixed; */
+   
+}
+.head1{
+    font-size: 20px;
+    position: relative;
+    margin-left: 40px;
+    bottom: 13px;
+}
+ .head2 {
+    font-size: 20px;
+    position: relative;
+    margin-left: 10px;
+    bottom: 40px;
+    top: 13px;
+    color: gray;
+    
+ }
+ .head2 a{
+    text-decoration: none;
+ }
+ .head2 a:hover{
+    color: black;
+ }
+ .head2 a{
+    color: gray;
+ }
+ .head3{
+    font-size: 20px;
+    position: relative;
+    margin-left: 90px;
+    top: 12px;
+ }
+ .head3 button a{
+   text-decoration: none;
+   color: black;
+ }
+ .head3 button:hover{
+   color:white;
+   background-color: black;
+   border: none;
+   height: 25px;
+   width: 70px;
+   border-radius: 5px;
+ }
+ .head3 button a:hover{
+  color:white;
+}
+ .ab{
+   text-align: center;
+ }
+ .ab hr{
+    width: 1200px;
+ }
+ .sec{
+   text-align: center;
+   width: 1000px;
+   margin-left: 110px;
+   font-size: 20px;
+ }
+ .our{
+   text-align: center;
+   top: 200px;
+ }
+ .text{
+   display:flex;
+   margin-left:40px;
+ }
+ figure figcaption{
+  border:1px solid gray;
+  height:20px;
+  width:84%;
+  position: relative;
+  bottom:5px;
+  text-align: center;
+  padding:15px;
+ }
+ .text div img{
+   height: 200px;
+   width: 200px;
+  }
+  .made{
+    text-align: center;
+    margin-top:10px;
+ }
+ 
+ 
